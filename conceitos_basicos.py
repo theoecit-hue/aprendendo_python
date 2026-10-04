@@ -81,3 +81,25 @@ numero2 = 27
 resultado = numero1 + numero2
 
 print (resultado)
+
+# Input = entrada do teclado
+# No Python, o f no print significa que você está usando uma f-string 
+# (formatted string literal). Isso permite inserir variáveis ou expressões
+# diretamente dentro de uma string usando chaves {}.
+
+# exemplo :
+nome_t = input("qual o seu nome ?: ")
+print (f"prazer em te conhecer, {nome_t}")
+
+
+#Colocar um f antes das aspas (f"texto") ativa o recurso de interpolação.
+#Dentro das chaves {}, você pode colocar o nome de uma variável ou até expressões.
+
+# mais um exemplo, mas agora usando numeros 
+
+primeiro_numero = int(input('Digite um número'))
+segundo_numero = int(input('Digite outro número'))
+resultado = primeiro_numero + segundo_numero
+print(f'A soma entre {primeiro_numero} e {segundo_numero} é igual a {resultado}')
+
+# sem o Int (tipo numerico ) ele iria apenas juntas os valores como texto (srt) e não (int)
