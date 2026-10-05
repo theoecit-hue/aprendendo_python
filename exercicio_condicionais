@@ -1,0 +1,74 @@
+# EXERCICIO 1:
+
+# notaminima = 6
+# notamaxima = 10
+# qualsuanota = int(input("qual sua nota ?"))
+
+# if qualsuanota == notaminima: print("passou raspando ")
+# if qualsuanota < notaminima: print("reprovou ")
+# if qualsuanota == notamaxima: print("passou suavee ")
+
+#EXERCICIO 2:
+
+# nome1 = input("jogador 1 : ")
+
+# nome2 = input("jogador 2 : ")
+
+# if nome1 == nome2: print ("ERRO, OS NOMES SÃO IGUAIS")
+
+# EXERCICIO 3:
+
+# idade = int(input("qual sua idade ? "))
+# idadem = 15
+
+# if idade >= 15 : print("Idade permitida, pode acessar")
+
+# if idade < 15 : print("ACESSO NEGADO, não atigiu a idade minima")
+
+
+
+#EXERCICIO ELSE E ELIF :
+
+#Peça ao usuário uma nota de 0 a 10 para um filme. Classifique a avaliação assim:
+
+#Nota 9 ou 10: "Excelente!"
+
+#Nota 7 ou 8: "Muito bom"
+
+#Nota 5 ou 6: "Regular"
+
+#Menor que 5: "Ruim"
+
+
+# nota = int(input("Notas para o filme: "))
+
+# if nota == 9 or nota == 10: 
+#      print ("Excelente!")
+# elif nota == 7 or nota == 8:
+#      print ("Muito bom")
+# elif nota == 5 or nota == 6: 
+#      print ("Regular")
+# elif nota < 5:
+#       print ("Ruim")
+
+# EXERCICIO 2 ELSE E ELIF
+
+#Seu programa deve verificar se o usuário tem direito a frete grátis. As regras são:
+
+#O valor da compra deve ser maior ou igual a 100
+
+#E o cliente precisa estar cadastrado no programa de fidelidade
+
+#Se as duas condições forem verdadeiras, mostre:
+#Caso contrário: "Frete grátis aplicado!""Frete não disponível gratuitamente."
+
+# valordacompra = float(input("qual o valor da sua compra ?: "))
+# cliente = input("Você é cadastrado no programa de fidelidade ? ")
+
+# if valordacompra >= 100 and cliente == ("sim"): print("Frete gratis aplicado a compra")
+
+
+# elif valordacompra <= 99: print ("Frete gratis não incluso !, atinja o valor mínimo ! ")
+
+# else:
+#     print("Frete não incluso, cadastre-se para obter frete gratis!")
