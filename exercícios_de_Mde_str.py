@@ -19,7 +19,7 @@
 
 #Colocar a primeira letra de cada palavra em maiúsculo
 
-# EXERCICIO 1:
+# EXERCICIO1:
 
 # frase = input("digite uma frase: ")
 # print(frase[0])
@@ -35,10 +35,11 @@
 #       print("acesso liberado!")
 
 
-# EXERCICIO 3
+#EXERCICIO 3
 
 # frase = "    @prendendo @ progr@m@r   "
 
 # frase = frase.replace('@', 'a')
 # frase = frase.strip()
+# frase = frase.title()
 # print(frase)
