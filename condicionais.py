@@ -62,3 +62,4 @@
 #     print("Está chovendo. Melhor ficar em casa.")
 
 # O not serve para inverter a lógica.
+
