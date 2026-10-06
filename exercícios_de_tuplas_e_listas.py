@@ -22,11 +22,11 @@ print(lista[2])
 
 #Mostre o tamanho da lista
 
-livros = ["Python", "java", "C++"]
-livros.insert(3, 'javascript')
-livros.remove('java')
-livros[0] = ('go')
-print (livros)
+# livros = ["Python", "java", "C++"]
+# livros.insert(3, 'javascript')
+# livros.remove('java')
+# livros[0] = ('go')
+# print (livros)
 
 #Exercício 3: 
 #🧪 Exercício 3 – Trabalhando com contagem e localização
@@ -41,4 +41,9 @@ print (livros)
 #Qual o índice da primeira vez que ele aparece
 
 nomes = [ "Ana", "Bruno", "Carla", "Daniel", "Eduarda", "Fernando", "Giovana", "Hugo", "Isabela", "João", "Carla", "Lucas", "Mariana", "Nuno", "Olivia", "João", "Pedro", "Carla", "Rafael", "Ana" ]
+
+contagem = nomes.count('Carla')
+index = nomes.index('Carla')
+
+print(f"o nome Carla apareceu {contagem} vezes, e a primeira vez foi no index {index}")
 
